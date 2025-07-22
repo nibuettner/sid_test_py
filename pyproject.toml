@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sid_test_py"
+version = "0.0.2"
+description = "Hello World!"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: System :: Archiving :: Packaging",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+authors = [{name = "Anonymous", email = "anonymous@anonymous.com"}]
+maintainers = [{name = "Anonymous", email = "anonymous@anonymous.com"}]
+keywords = ["test", "packaging"]
+requires-python = ">=3.9"
+dependencies = [
+    "requests"
+]
+
+[project.urls]
+Homepage = "https://example.sas.com/sid_test_py"
+Issues = "https://example.sas.com/sid_test_py/issues"
