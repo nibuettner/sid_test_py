@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sid_test_py"
-version = "0.0.2"
+version = "1.0.0"
 description = "Hello World!"
 readme = "README.md"
 classifiers = [
@@ -23,7 +23,7 @@ classifiers = [
 authors = [{name = "Anonymous", email = "anonymous@anonymous.com"}]
 maintainers = [{name = "Anonymous", email = "anonymous@anonymous.com"}]
 keywords = ["test", "packaging"]
-requires-python = ">=3.9"
+requires-python = ">=3.0"
 dependencies = [
     "requests"
 ]
